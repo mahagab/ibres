@@ -25,6 +25,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
   color: rgb(200, 200, 200);
   gap: 32px;
+  position: absolute;
+  left: 65%;
+  
 }
 
 
@@ -35,7 +38,7 @@ body {
   color: antiquewhite;
 }
 
-h1 {
+h2 {
     text-align: top;
     font-size: 40px;
     color: antiquewhite;
@@ -47,6 +50,8 @@ h1 {
     margin-bottom: 100px;
     text-align: center;
     position: relative;
+    left: 65%;
+    top: 40%;
   }
 
   .image {
@@ -85,7 +90,7 @@ h1 {
     max-width: 500px;
     max-height: 300px;
     border-radius: 20px;
-    margin-left: 290%;
+    margin-left: 120%;
     margin-top: 10%;
 
     -webkit-transform: rotate(10deg);
@@ -149,8 +154,10 @@ h1 {
     max-width: 500px;
     max-height: 300px;
     border-radius: 20px;
-    margin-left: 300%;
     margin-top: 10%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
 
     -webkit-transform: rotate(10deg);
             -moz-transform: rotate(10deg);
@@ -163,12 +170,14 @@ h1 {
 
   .container {
 position: absolute;  
-margin-bottom: 500px;  
+top: 10%; 
+left: 10%;
   }
 
   .contimage {
   
-    margin-top: 25%;  
+    margin-top: 25%; 
+
       }
 
 
