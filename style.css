@@ -26,7 +26,7 @@ body {
   color: rgb(200, 200, 200);
   gap: 32px;
   position: absolute;
-  left: 65%;
+  left: 30%;
   
 }
 
@@ -34,7 +34,7 @@ body {
 .title {
   grid-column: 4 span;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   color: antiquewhite;
 }
 
